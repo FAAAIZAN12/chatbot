@@ -115,6 +115,39 @@ p {
 .section p {
     margin-bottom: 20px;
 }
+document.addEventListener("DOMContentLoaded", function() {
+});
+
 </style>
 </head>
 <body>
+
+var element = document.getElementById("example");
+if (element !== null) {
+    // Access element properties
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Define the 'hidden' class */
+.hidden {
+    display: none;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+  
